@@ -1,0 +1,202 @@
+* {
+  margin: 0 auto; }
+
+.margin {
+  width: 1210px;
+  margin: 0 auto; }
+
+header {
+  height: 98px;
+  width: 100%; }
+  header p {
+    width: 166px;
+    height: 42px;
+    border-left: 2px solid #cccccc;
+    font: 24px/42px "";
+    text-align: center;
+    color: #999999;
+    margin: 27px 0 0 20px; }
+  header span {
+    font: 14px/98px "";
+    color: #746f6a;
+    background: url(../img/register/phone-logo.png) no-repeat left;
+    padding-left: 27px; }
+
+main {
+  height: 536px;
+  width: 100%;
+  background: url(../img/register/login_background1.jpg) repeat-x center; }
+  main .box {
+    float: right;
+    width: 400px;
+    height: 478px;
+    margin: 40px 30px 0 0;
+    background: #fff; }
+    main .box h3 {
+      font: 18px/50px "";
+      color: #000;
+      text-align: center; }
+    main .box input {
+      width: 340px;
+      height: 50px;
+      border: 1px solid #cccccc;
+      margin: 8px 30px;
+      text-indent: 1em; }
+    main .box .pass i {
+      background: url(../img/register/tan-log.png) no-repeat center;
+      height: 14px;
+      width: 14px;
+      display: inline-block;
+      background-size: 14px 14px;
+      background-repeat: no-repeat;
+      vertical-align: middle; }
+    main .box p {
+      font-size: 14px;
+      height: 14px;
+      line-height: 14px;
+      display: inline-block;
+      vertical-align: middle;
+      color: #999;
+      margin-top: 6px; }
+  main input.psd:hover p {
+    display: block; }
+  main input.te {
+    width: 180px; }
+  main button {
+    width: 130px;
+    height: 50px;
+    background: #f2f2f2;
+    font: 14px/50px "";
+    color: #000;
+    text-alin: center;
+    border: none; }
+  main .sub {
+    display: block;
+    width: 340px;
+    height: 50px;
+    background: #333333;
+    font: 18px/50px "";
+    text-align: center;
+    margin: 8px 30px;
+    color: #fff; }
+  main .sub:hover {
+    background: #b90404;
+    transition: 1.8s;
+    text-decoration: none; }
+  main .new {
+    overflow: hidden;
+    margin: -9px 0 0 46px; }
+    main .new i {
+      display: block;
+      width: 12px;
+      height: 12px;
+      background: url(../img/register/is_yes.png) no-repeat;
+      float: left; }
+    main .new span {
+      font-size: 12px;
+      color: #999;
+      float: left;
+      margin: -2px 0 0 5px; }
+      main .new span a {
+        font-size: 13px;
+        color: #333333;
+        text-decoration: none; }
+    main .new b {
+      float: left;
+      font-size: 12px;
+      margin: -2px 0 0 24px; }
+      main .new b a {
+        color: #ff9900;
+        text-decoration: none; }
+
+footer {
+  width: 100%;
+  background: url(../img/register/footer_message_bg.jpg) repeat-x center;
+  overflow: hidden; }
+  footer ul {
+    display: flex;
+    justify-content: space-between; }
+    footer ul li {
+      margin: 24px 0; }
+      footer ul li img {
+        float: left; }
+      footer ul li .goods {
+        float: left;
+        margin-left: 5px; }
+        footer ul li .goods p {
+          font: 700 12px/40px '';
+          color: #000; }
+        footer ul li .goods b {
+          display: block;
+          font-size: 12px;
+          margin-top: -14px; }
+          footer ul li .goods b a {
+            color: #333333;
+            font-weight: 500; }
+  footer i {
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #c9c9c9;
+    margin: 26px 0; }
+  footer .bg {
+    height: 423px; }
+    footer .bg .bg-l {
+      margin-left: 22px;
+      overflow: hidden; }
+      footer .bg .bg-l dl {
+        float: left;
+        margin-right: 110px; }
+        footer .bg .bg-l dl dt {
+          font-size: 13px;
+          font-weight: 700;
+          color: #000;
+          margin-bottom: 12px; }
+        footer .bg .bg-l dl dd {
+          font-size: 12px;
+          line-height: 25px; }
+          footer .bg .bg-l dl dd a {
+            color: #333333; }
+    footer .bg .bg-r {
+      margin-right: 45px; }
+      footer .bg .bg-r dl {
+        float: left;
+        margin-left: 55px; }
+        footer .bg .bg-r dl dt {
+          font: 700 12px/30px "";
+          color: #000;
+          margin-bottom: 18px; }
+    footer .bg .dibu {
+      overflow: hidden;
+      margin: 88px auto 34px; }
+    footer .bg a {
+      font-size: 12px;
+      color: #fff; }
+    footer .bg span {
+      margin: 0 8px;
+      color: #fff; }
+    footer .bg p {
+      font-size: 12px;
+      color: #fff;
+      margin: 14px auto 26px; }
+    footer .bg .dibu-3 {
+      margin-left: 460px; }
+      footer .bg .dibu-3 img {
+        float: left;
+        margin-right: 6px; }
+
+.popup {
+  background: rgba(0, 0, 0, 0.5);
+  height: 120px;
+  width: 100%;
+  position: fixed;
+  bottom: 0; }
+  .popup .popup-main {
+    background: url(../img/foot_popup.png) no-repeat center;
+    height: 120px;
+    width: 100%; }
+    .popup .popup-main a {
+      display: block;
+      width: 60px;
+      height: 47px;
+      margin-right: 80px; }

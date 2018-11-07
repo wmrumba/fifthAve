@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td,figure{margin:0;padding:0;/*因为这些快元素都有默认的margin和padding；*/}
+body{font:12px Arial,Verdana,"\5b8b\4f53"; word-wrap:break-word;}
+a,u,del{color:#666;text-decoration:none/*去除下划线*/} 
+fieldset ,a img,.bor0 {border:0;}/*去除边框*/
+i,em,b{font-style:normal;font-weight:100;}
+li,dt,dl,ol,dd{list-style:none;/*消除列表符号*/}
+img{vertical-align:middle;}/*这是消除图片的3px的BUG，图片居中，或者display:block;*/
+table{border-collapse:collapse;}
+h1{display:none;}
+.ind2{text-indent:2em;}
+i,s{display: inline-block;vertical-align: middle;}
+
+/*图片居中*/
+.valign{text-align:center;}
+.valign img{vertical-align:middle;}
+.valign:after{content:"";display:inline-block;vertical-align:middle;height:100%;}
+
+/*文本溢出隐藏出现省略号*/
+.over{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+/*定位居中*/
+.center{left:0;top:0;right:0;bottom:0;margin:auto;}
+
+/*万能清除法*/
+.clear{zoom:1;/*解决ie的神奇属性*/}
+.clear:before{content:"";display:table;}/*解决第一个子元素margin-top向上传递*/
+.clear:after{content:"";clear:both;display:block;}/*清除浮动*/
+
+*{margin:0;padding:0;}
+
+.l{float:left;}
+.r{float:right;}

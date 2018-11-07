@@ -1,0 +1,287 @@
+*{margin:0 auto;}
+.margin{
+	 width:1210px;
+	margin:0 auto;
+}
+header{
+	height:98px;
+	width:100%;
+	p{
+		width:166px;
+		height:42px;
+		border-left:2px solid #cccccc;
+		font:24px/42px "";
+		text-align:center;
+		color:#999999;
+		margin:27px 0 0 20px;
+	}
+	span{
+		font:14px/98px "";
+		color:#746f6a;
+		background:url(../img/register/phone-logo.png) no-repeat left;padding-left:27px;
+	}
+}
+
+main{
+	height:536px;
+	width:100%;
+	background:url(../img/register/login_background1.jpg) repeat-x center;
+	.box{
+		float:right;
+		width:400px;
+		height:478px;
+		margin:40px 30px 0 0;
+		background:#fff;
+		h3{
+			font:18px/50px "";
+			color:#000;
+			text-align:center;
+		}
+		input{
+			width:340px;
+			height:50px;
+			border:1px solid #cccccc;
+			margin:8px 30px;
+			text-indent:1em;
+		}
+		.pass{
+			
+		i{
+			background:url(../img/register/tan-log.png) no-repeat center;
+			height:14px;
+			width:14px;
+			display: inline-block;
+			background-size: 14px 14px;
+			background-repeat: no-repeat;
+			vertical-align: middle;
+			
+			}
+		}
+		p{
+			
+			font-size: 14px;
+			height: 14px;
+			line-height: 14px;
+			display: inline-block;
+			vertical-align: middle;
+			color: #999;
+			margin-top:6px;
+			
+			}
+		}
+		input.psd:hover p{
+			display:block;
+		}
+		input.te{
+			width:180px;
+		}
+		button{
+			width:130px;
+			height:50px;
+			background:#f2f2f2;
+			font:14px/50px "";
+			color:#000;
+			text-alin:center;
+			border:none;
+			}
+			.sub{
+				display:block;
+				width:340px;
+				height:50px;
+				background:#333333;
+				font:18px/50px "";
+				text-align:center;
+				margin:8px 30px;
+				color:#fff;
+			}
+			.sub:hover{
+				background:#b90404;
+				transition:1.8s;
+				text-decoration: none;
+			}
+			.new{
+				overflow:hidden;
+				margin:-9px 0 0 46px;
+				i{
+					display:block;
+					width:12px;
+					height:12px;
+					background:url(../img/register/is_yes.png) no-repeat;
+					float:left;
+					
+				}
+				span{
+					font-size:12px;
+					color:#999;
+					float:left;
+					margin:-2px 0 0 5px;
+					a{
+						font-size:13px;
+						color:#333333;
+						text-decoration: none;
+
+					}
+				}
+				b{
+					float:left;
+					font-size:12px;
+					margin:-2px 0 0 24px;
+					a{
+						color:#ff9900;
+                        text-decoration: none;
+					}
+				}
+			}
+	}
+
+
+footer{
+	width:100%;
+	background:url(../img/register/footer_message_bg.jpg) repeat-x center;
+	overflow:hidden;
+	ul{
+		display:flex;
+		justify-content: space-between;
+		li{
+			
+			margin:24px 0;
+			
+			img{
+				float:left;
+			}
+			.goods{
+				float:left;
+				margin-left:5px;
+			p{
+				
+				font:700 12px/40px '';
+				color:#000;
+			}
+			b{
+				display:block;
+				font-size:12px;
+				margin-top:-14px;
+				a{
+				color:#333333;
+				font-weight:500;
+				}
+			}
+		}
+	}
+}
+i{
+	display:block;
+	height:1px;
+	width:100%;
+	background:#c9c9c9;
+	margin:26px 0;
+}
+.bg{
+	
+	height:423px;
+	
+	.bg-l{
+		margin-left:22px;
+		overflow:hidden;
+		dl{
+			float:left;
+			margin-right:110px;
+			dt{
+				font-size:13px;
+				font-weight:700;
+				color:#000;
+				margin-bottom:12px;
+				}
+				dd{
+					font-size:12px;
+					line-height: 25px;
+					a{
+					color:#333333;
+					}
+			}
+		}
+	}
+	.bg-r{
+		margin-right:45px;
+		dl{
+			float:left;
+			margin-left:55px;
+			dt{
+				font:700 12px/30px "";
+				color:#000;
+				margin-bottom:18px;
+			}
+		}
+	}
+
+		
+		
+		   
+		  .dibu{
+			  overflow:hidden;
+			  margin:88px auto 34px;
+			  }
+		     a{
+			font-size:12px;
+			color:#fff;
+		}
+		span{	
+			margin:0 8px;
+			 color:#fff;
+		}
+	
+	 p{
+		 font-size:12px;
+		 color:#fff;
+		 margin:14px auto 26px;
+
+	 }
+.dibu-3{
+	margin-left:460px;
+	 img{ 
+		 float:left;
+		margin-right:6px;
+	 }
+	}  
+  }
+}
+
+.popup{
+	background:rgba(0,0,0,.5);
+	height:120px;
+	width:100%;
+    position:fixed;
+	bottom:0;
+	.popup-main{
+		background:url(../img/foot_popup.png) no-repeat center;
+		height:120px;
+		width:100%;
+		a{
+			display:block;
+			width:60px;
+			height:47px;
+			margin-right:80px;
+		}
+		
+	}
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
